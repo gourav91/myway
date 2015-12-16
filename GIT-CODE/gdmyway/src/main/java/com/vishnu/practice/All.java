@@ -1,4 +1,4 @@
-package nov7practice;
+package com.vishnu.practice;
 
 public class All {
 public static void main(String[] args) {

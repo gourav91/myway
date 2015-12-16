@@ -1,4 +1,4 @@
-package nov7practice;
+package com.vishnu.practice;
 
 class Practicenov7 {
 	int s = 0;

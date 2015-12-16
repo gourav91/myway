@@ -1,4 +1,4 @@
-package nov7practice;
+package com.vishnu.practice;
 
 public class Partc {
 	int i;

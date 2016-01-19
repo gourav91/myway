@@ -1,4 +1,4 @@
-package com.gourav.practice;
+package com.gourav.programming.practice;
 
 public class FirstProblem {
 	public String sayWelcome(String name){

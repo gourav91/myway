@@ -20,6 +20,12 @@
 			<artifactId>jersey-json</artifactId>
 			<version>${jesry-json-version}</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>com.sun.jersey.contribs</groupId>
+			<artifactId>jersey-multipart</artifactId>
+			<version>${jesry-json-version}</version>
+		</dependency>
 
 
 	</dependencies>

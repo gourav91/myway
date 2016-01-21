@@ -15,7 +15,7 @@ public class ImageFile {
 	@Path("/get")
 	@Produces("image/png")
 	public Response getImage(){
-		File file = new File("c://test.png");
+		File file = new File("test.png");
 		ResponseBuilder responseBuilder=Response.ok((Object)file);
 		responseBuilder.header("Content-Disposition",
 				"attachment; filename=\"test.png\"");

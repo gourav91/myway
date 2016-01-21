@@ -15,7 +15,7 @@ public class TextFileExample {
 	@Path("/get")
 	@Produces("text/plain")
 	public Response getFile() {
-		File file = new File("c:\\test.json");
+		File file = new File("test.json");
 		ResponseBuilder responseBuilder = Response.ok((Object)file);
 		responseBuilder.header("Content-Disposition",
 				"attachment; filename=\"test.json\"");

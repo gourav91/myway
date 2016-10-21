@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Context>
+  <Resource
+	   name="jdbc/TADB"
+	   auth="Container"
+	   type="javax.sql.DataSource"
+	   factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+	   initialSize="5"
+	   maxActive="100"
+	   maxIdle="23"
+	   minIdle="9"
+	   timeBetweenEvictionRunsMillis="34000"
+	   minEvictableIdleTimeMillis="55000"
+	   validationQuery="SELECT 1"
+	   validationInterval="100"
+	   testOnBorrow="true"
+	   removeAbandoned="true"
+	   removeAbandonedTimeout="233"
+	   username="root"
+	   password="hsc321"
+	   driverClassName="com.mysql.jdbc.Driver"
+	   url="jdbc:mysql://localhost:3306/academy?allowMultiQueries=true&amp;useUnicode=true&amp;characterEncoding=UTF-8&amp;characterSetResults=UTF-8"
+   />
+</Context>
